@@ -18,7 +18,6 @@
         outline: 0;
         font-size: 100%;
         vertical-align: baseline;
-        background: transparent;
     }
 		.titles {
 			width: 100%;
@@ -49,10 +48,7 @@
 			box-shadow:0px 0px 10px 0px rgba(99,99,99,1);
 		}
 		a {
-			width:25%;height:200px;text-decoration-color:aquamarine;color:aquamarine;width: 25%;height: 200px;text-decoration-color: aquamarine;color: aquamarine;
-		}
-		img {
-			width:100%;height:200px;width: 100%;height: 200px;
+			width:25%;height:200px;
 		}
 		article {
 			width:50%;margin:auto;font-family:'Poppins', sans-serif;color:#333333;font-size:18px;width: 50%;margin: auto;font-family: 'Poppins', sans-serif;color: #333333;font-size: 18px;
@@ -64,35 +60,72 @@
 				height: 100px;
 			}
 			article {
-				width: 85%;
+				margin-top: 15%;
 			}
 			.description {
 				font-size: 8px;
 			}
 		}
+		.mecontainer {
+			width: 100%;
+		}
+		li {
+			margin-left: 5px;
+		}
+		.projectpic {
+			width: 200px;
+			height: 150px;
+		}
+		.stockapp {
+			border-radius: 15px;
+			padding: 3px;
+			text-decoration: none;
+			color: white;
+			font-size: 12px;
+			transition-duration: 1s;
+		}
+		.stockapp:hover {
+			margin-left: 15px;
+			transition-duration: 1s;
+		}
+		
+		.green {
+			background-color: #3cba54;
+		}
+		
+		.yellow {
+			background-color: #f4c20d;
+		}
+		
+		.red {
+			background-color: #db3236;
+		}
+		
+		.blue {
+			background-color: #4885ed;
+		}
     </style>
     
   </head>
   <body style="width:100%;height:100%;width: 100%;height: 100%;">
-    <h1 style="font-size:30px;width:100%;text-align:center;font-family:'Poppins', sans-serif;color:#333333;margin-top:50px;margin-bottom:50px;font-size: 30px;width: 100%;text-align: center;font-family: 'Poppins', sans-serif;color: #333333;margin-top: 50px;margin-bottom: 50px;">My Portfolio</h1>
+	  <div class = "mecontainer">
+	  	<img src = "images/me.png" style = "width: 100px; height: 100px; margin: auto; display: block; margin-bottom: 25px; margin-top: 40px;"> <!–– Acting as placeholder -->
+	  </div>
 	  <link rel="stylesheet" media="screen only (max-width: 500px;)" href="mobile.css">
-	<div class = 'titles'>
-		<p class = 'description'>Stock Price App</p>
-		<p class = 'description'>Charlie Brown Web Game</p>
-		<p class = 'description'>Focus Word Editor</p>
-		<p class = 'description'>Sign Up Page</p>
-	</div>
-    <div class="container">
-      <a href="stockapp.html"><img src="images/image1.jpg"></a>
-      <a href="charliebrown.html"><img src="images/image2.jpg"></a>
-      <a href="focusword.html"><img src="images/image3.jpg"></a>
-      <a href="phpproject.html"><img src="images/image4.jpg"></a>
-    </div>
+	
     <article>
-      My name is Seth Connell. I'm a full-stack web developer who enjoys writing beautiful code. I know Python, JavaScript, jQuery, PHP, MySQL, CSS, and HTML.
+      Hello, my name is Seth Connell. I'm a junior full-stack web developer. 
 		<br>
-      <br>
-      Have a project you need help with? Contact me by email at <a href="mailto:sethjordanconnell@gmail.com" style="width:25%;height:200px;text-decoration-color:aquamarine;color:aquamarine;width: 25%;height: 200px;text-decoration-color: aquamarine;color: aquamarine;"><b>sethjordanconnell@gmail.com</b></a>.
+		<br>
+		<h2>My Skills:</h2>
+		<li>JavaScript.</li><li>jQuery.</li><li>PHP.</li><li>MySQL.</li><li>CSS.</li><li>HTML.</li><li style = "margin-bottom: 25px;">Python.</li>
+		<h2>Previous Projects:</h2>
+		<li><a href="phpproject.html" class = "stockapp green">Sign Up Page</a></li>
+		<li><a href="stockapp.html" class = "stockapp yellow">Stock Price App</a></li>
+		<li><a href="focusword.html" class = "stockapp red">Focus Word Editor</a></li>
+		<li><a href="charliebrown.html" class = "stockapp blue">Charlie Brown Web Game</a></li>
+		<br>
+      Have a project you need help with? Contact me by email at <a href="mailto:sethjordanconnell@gmail.com" style="width:25%;height:200px"><b>sethjordanconnell@gmail.com</b></a>.
 		<br>
       <br>
       Also, please follow me on GitHub to see the latest cool projects I'm working on.

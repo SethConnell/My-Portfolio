@@ -2,3 +2,8 @@
 	color: pink;
 	background-color: white;
 }
+
+.stockapp:hover {
+			margin-left: 15px;
+			transition-duration: 1s;
+		}
